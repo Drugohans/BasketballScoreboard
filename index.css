@@ -1,0 +1,82 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #1B244A;
+    background-size: cover;
+    color: white;
+    font-size: 40px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px auto;
+    border: 10px solid white;
+    border-radius: 5px;
+    width: 580px;
+    height: 390px;
+    
+}
+
+.score-board {
+    background-color: black;
+    color: #F94F6D;
+    width: 180px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.score{
+    font-family: CursedTimerUlil;
+    font-size: 90px;
+    padding-top: 15px;
+}
+
+.btn-display {
+    display: flex;
+    margin-left: 30px;
+}
+
+.add-btn {
+    margin-top: 15px;
+    margin-right: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: CursedTimerUlil;
+    font-size: 18px;
+    background-color: #1B244A;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.add-btn:hover {
+    background-color: white;
+    color: #1B244A;
+}
+
+#reset-btn {
+    font-family: CursedTimerUlil;
+    font-size: 30px;
+    height: 50px;
+    margin-top: 190px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #1B244A;
+    color: white;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+#reset-btn:hover {
+    background-color: white;
+    color: #1B244A;
+}
